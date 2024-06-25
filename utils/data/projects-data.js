@@ -6,44 +6,65 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'News',
+        description: 'I designed and developed a fully functional Android-based news application in Kotlin. The application includes features such as retrieving breaking news, saving and unsaving news locally for offline reading, searching articles to find news on specific topics, and viewing news in an embedded WebView. I utilized NewsAPI to retrieve data, managed the local database with the Room persistence library, used Kotlin Coroutines for asynchronous programming, and applied the MVVM design pattern.',
+        tools: ['Kotlin', 'Android Studio', 'Room', 'Retrofit', 'Glide'],
+        role: 'Android Developer',
         code: '',
         demo: '',
-        image: crefin,
+        images: ['crefin', 'crefin']
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'Swift Notes',
+        description: 'I developed a fully functional iOS application using Swift and SwiftUI to efficiently manage notes. The application includes features such as creating, editing, and deleting notes. I designed a user-friendly interface focusing on an intuitive user experience and accessibility with SwiftUI. Data persistence was ensured using SwiftData for local storage.',
+        tools: ['Swift', 'SwiftUI', "SwiftData", "XCode"],
+        role: 'iOS Developer',
         code: '',
         demo: '',
-        image: travel,
+        images: ['crefin', 'crefin']
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
+        name: 'Chat Me',
+        description: 'I designed and developed an Android-based chat application in Java with Firebase Services; Authentication, Storage, Realtime Database, Cloud Messaging as Backend. The application includes features such as authentication, email verification, consent-based personal contacts, real-time messaging with push notification, p2p communication, and profile management. I enhanced the project after a technical discussion with an Android software architect; applied MVVM design pattern, Broadcast Receiver, Shared Preferences, Background Service, and Activity Lifecycle Management. Iterated all project UI/UX after self-test loops. The purpose of the project is to learn and implement Android basics and gather them on a single project.',
+        tools: ['Java', 'Firebase', 'MVVM', 'Broadcast Receiver', 'Shared Preferences', 'Background Service', 'Activity Lifecycle Management'],
+        role: 'Android Developer',
+        code: 'https://github.com/yourusername/chat-me',
         demo: '',
-        image: realEstate,
+        images: ['crefin', 'crefin']
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
+        name: 'Conference Management System',
+        description: 'I collaborated with a team of 4 people and developed a web-based conference management system using Java Spring Boot for the backend, MySQL as a relational database and HTML, CSS, JavaScript for frontend. I contributed to the backend of the application, implemented features such as submission of papers, review and selection process including double-blind reviewing system to ensure unbiased feedback. I conducted unit testing to ensure code quality and reliability. Additionally, I utilized Firebase Storage for saving papers as PDF files, ensuring efficient and secure document management. I integrated backend functionalities with the frontend, enabling features like paper submission and management. Followed Agile methodologies for project management, ensuring iterative development and continuous improvement.',
+        tools: ['Java Spring Boot', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Firebase Storage', 'Agile'],
         role: 'Full Stack Developer',
-    }
+        code: 'https://github.com/yourusername/conference-management-system',
+        demo: '',
+        images: ['crefin', 'crefin']
+    },
+    {
+        id: 5,
+        name: 'Anonymous Chat',
+        description: 'I developed a web-based real-time chat application using Spring Boot for the backend, providing a scalable and robust architecture. The application includes features such as WebSocket communication for real-time messaging between users, RESTful APIs for message handling and chat room management. Ensured efficient message delivery and user management without relying on a traditional database. The application allows users to join chat rooms anonymously for real-time messaging.',
+        tools: ['Spring Boot', 'WebSocket', 'RESTful API'],
+        role: 'Backend Developer',
+        code: 'https://github.com/yourusername/anonymous-chat',
+        demo: '',
+        images: ['crefin', 'crefin']
+    },
+    {
+        id: 6,
+        name: 'Little Digital Library',
+        description: 'I collaborated with a team of 2 people and developed a fully functional Android application with a Java Spring Framework and Firebase-based backend, MySQL as a relational database that stores back-end application state. I designed, implemented, and tested the Android application. The application includes features such as authentication, listing and downloading books, viewing a downloaded book in the embedded PDF reader.',
+        tools: ['Java Spring Framework', 'Firebase', 'MySQL', 'Android Studio', 'Embedded PDF Reader'],
+        role: 'Android Developer',
+        code: 'https://github.com/yourusername/little-digital-library',
+        demo: '',
+        images: ['crefin', 'crefin']
+    },
+    
 ];
 
 
